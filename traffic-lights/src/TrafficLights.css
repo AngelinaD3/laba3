@@ -1,0 +1,22 @@
+.traffic-container {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+  }
+  
+  .lights-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .lights-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .horizontal-lights, .vertical-lights {
+    border: 1px dashed #ccc;
+    padding: 15px;
+    border-radius: 8px;
+  }
